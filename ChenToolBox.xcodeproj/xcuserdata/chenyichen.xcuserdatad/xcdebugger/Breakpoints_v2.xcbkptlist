@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A245449-D87B-426B-B18B-FB69CFD65593"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6E8650F-ECAC-4444-85D8-3DB90F5A5C13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A6E8650F-ECAC-4444-85D8-3DB90F5A5C13 - e2c478d199bc58b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "A6E8650F-ECAC-4444-85D8-3DB90F5A5C13 - a7ebed1818211b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.Alert in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A098A19-A329-4393-B2DC-5B05A894457A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Model/AddDataToCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "saveLessonsToCalendar(lessons:startDate:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8230C54A-0D6B-4633-820D-F1E362518654"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Model/AddDataToCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "saveLessonsToCalendar(lessons:startDate:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28DFEE71-7AD0-4E4B-AFFD-967C362155EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Model/AddDataToCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "saveLessonsToCalendar(lessons:startDate:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC0BF34B-B07A-4D99-8294-69F5DB089BA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Model/AddDataToCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "saveLessonsToCalendar(lessons:startDate:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "EC0BF34B-B07A-4D99-8294-69F5DB089BA4 - 60b074656575a4e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChenToolBox.saveLessonsToCalendar(lessons: Swift.Array&lt;ChenToolBox.Lesson&gt;, startDate: Foundation.Date) throws -&gt; ()"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/Model/AddDataToCalendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "EC0BF34B-B07A-4D99-8294-69F5DB089BA4 - 60b074656575a4e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChenToolBox.saveLessonsToCalendar(lessons: Swift.Array&lt;ChenToolBox.Lesson&gt;, startDate: Foundation.Date) throws -&gt; ()"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/Model/AddDataToCalendar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F557442-8046-4A47-82C1-E935E6B74AD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Model/AddDataToCalendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "saveLessonsToCalendar(lessons:startDate:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95 - 64d0d8718b7dab49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95 - 64d0d8718b7dab49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95 - 64d0d8718b7dab49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95 - 1483011d066b5ee7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 () -&gt; () in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "8E48CA5B-380E-4CA2-A2A7-8074EDCCFC95 - 1483011d066b5ee7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 () -&gt; () in ChenToolBox.downBotton.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2E37648-35E6-473F-89AB-6AC94EA88601"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/Controller/Access.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "requestCalendarAccess(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAFCD299-F21B-448F-A4E1-0AE061A49F25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/UIView/LessonsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "799C52BC-B968-43E2-A5B9-1CF1F888E55F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/UIView/LessonsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34A5FB60-5D8F-4230-94DB-61D2DAFBFC62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChenToolBox/UIView/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "34A5FB60-5D8F-4230-94DB-61D2DAFBFC62 - f54d74c17b7178d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChenToolBox.ContentView.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/UIView/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "34A5FB60-5D8F-4230-94DB-61D2DAFBFC62 - f54d74c17b7178d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChenToolBox.ContentView.body.getter : some"
+                  moduleName = "ChenToolBox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/D/code/ChenToolBox/ChenToolBox/UIView/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

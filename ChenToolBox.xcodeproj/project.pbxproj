@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8158AFC2AC5873200A75E74 /* DoSomeExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8158AFB2AC5873200A75E74 /* DoSomeExperiment.swift */; };
+		F847B1742ACB14700095AD82 /* FormatterForString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847B1732ACB14700095AD82 /* FormatterForString.swift */; };
+		F8A0EC9A2AC2F23F00E079B2 /* ChenToolBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0EC992AC2F23F00E079B2 /* ChenToolBoxApp.swift */; };
+		F8A0EC9C2AC2F23F00E079B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0EC9B2AC2F23F00E079B2 /* ContentView.swift */; };
+		F8A0EC9E2AC2F23F00E079B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A0EC9D2AC2F23F00E079B2 /* Assets.xcassets */; };
+		F8A0ECA12AC2F23F00E079B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A0ECA02AC2F23F00E079B2 /* Preview Assets.xcassets */; };
+		F8A0ECAB2AC2F24000E079B2 /* ChenToolBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ECAA2AC2F24000E079B2 /* ChenToolBoxTests.swift */; };
+		F8A0ECB52AC2F24000E079B2 /* ChenToolBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ECB42AC2F24000E079B2 /* ChenToolBoxUITests.swift */; };
+		F8A0ECB72AC2F24000E079B2 /* ChenToolBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ECB62AC2F24000E079B2 /* ChenToolBoxUITestsLaunchTests.swift */; };
+		F8A0ECC52AC2F28600E079B2 /* LessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ECC42AC2F28600E079B2 /* LessonData.swift */; };
+		F8A0ECC92AC2F50000E079B2 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = F8A0ECC82AC2F50000E079B2 /* SwiftSoup */; };
+		F8A0ECCB2AC2F8DD00E079B2 /* AddDataToCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ECCA2AC2F8DD00E079B2 /* AddDataToCalendar.swift */; };
+		F8E44DA22AC5BD90008D4E8A /* LessonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E44DA12AC5BD90008D4E8A /* LessonsView.swift */; };
+		F8EFAA3B2AC2FADE00DEB44B /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFAA3A2AC2FADE00DEB44B /* StaticData.swift */; };
+		F8EFAA3E2AC30CAE00DEB44B /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFAA3D2AC30CAE00DEB44B /* Access.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8A0ECA72AC2F24000E079B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8A0EC8E2AC2F23F00E079B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A0EC952AC2F23F00E079B2;
+			remoteInfo = ChenToolBox;
+		};
+		F8A0ECB12AC2F24000E079B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8A0EC8E2AC2F23F00E079B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A0EC952AC2F23F00E079B2;
+			remoteInfo = ChenToolBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8158AFB2AC5873200A75E74 /* DoSomeExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoSomeExperiment.swift; sourceTree = "<group>"; };
+		F847B1732ACB14700095AD82 /* FormatterForString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterForString.swift; sourceTree = "<group>"; };
+		F8A0EC962AC2F23F00E079B2 /* ChenToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChenToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A0EC992AC2F23F00E079B2 /* ChenToolBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenToolBoxApp.swift; sourceTree = "<group>"; };
+		F8A0EC9B2AC2F23F00E079B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8A0EC9D2AC2F23F00E079B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8A0ECA02AC2F23F00E079B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8A0ECA62AC2F24000E079B2 /* ChenToolBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChenToolBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A0ECAA2AC2F24000E079B2 /* ChenToolBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenToolBoxTests.swift; sourceTree = "<group>"; };
+		F8A0ECB02AC2F24000E079B2 /* ChenToolBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChenToolBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A0ECB42AC2F24000E079B2 /* ChenToolBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenToolBoxUITests.swift; sourceTree = "<group>"; };
+		F8A0ECB62AC2F24000E079B2 /* ChenToolBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenToolBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8A0ECC42AC2F28600E079B2 /* LessonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonData.swift; sourceTree = "<group>"; };
+		F8A0ECCA2AC2F8DD00E079B2 /* AddDataToCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataToCalendar.swift; sourceTree = "<group>"; };
+		F8E44DA12AC5BD90008D4E8A /* LessonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsView.swift; sourceTree = "<group>"; };
+		F8EFAA3A2AC2FADE00DEB44B /* StaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticData.swift; sourceTree = "<group>"; };
+		F8EFAA3D2AC30CAE00DEB44B /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		F8EFAA3F2AC32C9200DEB44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A0EC932AC2F23F00E079B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A0ECC92AC2F50000E079B2 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECA32AC2F24000E079B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECAD2AC2F24000E079B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A0EC8D2AC2F23F00E079B2 = {
+			isa = PBXGroup;
+			children = (
+				F8A0EC982AC2F23F00E079B2 /* ChenToolBox */,
+				F8A0ECA92AC2F24000E079B2 /* ChenToolBoxTests */,
+				F8A0ECB32AC2F24000E079B2 /* ChenToolBoxUITests */,
+				F8A0EC972AC2F23F00E079B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A0EC972AC2F23F00E079B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0EC962AC2F23F00E079B2 /* ChenToolBox.app */,
+				F8A0ECA62AC2F24000E079B2 /* ChenToolBoxTests.xctest */,
+				F8A0ECB02AC2F24000E079B2 /* ChenToolBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A0EC982AC2F23F00E079B2 /* ChenToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				F8E44DA02AC5BD41008D4E8A /* UIView */,
+				F8EFAA3F2AC32C9200DEB44B /* Info.plist */,
+				F8EFAA3C2AC30C9100DEB44B /* Controller */,
+				F8A0ECC32AC2F26600E079B2 /* Model */,
+				F8A0EC992AC2F23F00E079B2 /* ChenToolBoxApp.swift */,
+				F8A0EC9D2AC2F23F00E079B2 /* Assets.xcassets */,
+				F8A0EC9F2AC2F23F00E079B2 /* Preview Content */,
+				F8158AFB2AC5873200A75E74 /* DoSomeExperiment.swift */,
+			);
+			path = ChenToolBox;
+			sourceTree = "<group>";
+		};
+		F8A0EC9F2AC2F23F00E079B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0ECA02AC2F23F00E079B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8A0ECA92AC2F24000E079B2 /* ChenToolBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0ECAA2AC2F24000E079B2 /* ChenToolBoxTests.swift */,
+			);
+			path = ChenToolBoxTests;
+			sourceTree = "<group>";
+		};
+		F8A0ECB32AC2F24000E079B2 /* ChenToolBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0ECB42AC2F24000E079B2 /* ChenToolBoxUITests.swift */,
+				F8A0ECB62AC2F24000E079B2 /* ChenToolBoxUITestsLaunchTests.swift */,
+			);
+			path = ChenToolBoxUITests;
+			sourceTree = "<group>";
+		};
+		F8A0ECC32AC2F26600E079B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0ECC42AC2F28600E079B2 /* LessonData.swift */,
+				F8A0ECCA2AC2F8DD00E079B2 /* AddDataToCalendar.swift */,
+				F8EFAA3A2AC2FADE00DEB44B /* StaticData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8E44DA02AC5BD41008D4E8A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F8A0EC9B2AC2F23F00E079B2 /* ContentView.swift */,
+				F8E44DA12AC5BD90008D4E8A /* LessonsView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F8EFAA3C2AC30C9100DEB44B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFAA3D2AC30CAE00DEB44B /* Access.swift */,
+				F847B1732ACB14700095AD82 /* FormatterForString.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A0EC952AC2F23F00E079B2 /* ChenToolBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A0ECBA2AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBox" */;
+			buildPhases = (
+				F8A0EC922AC2F23F00E079B2 /* Sources */,
+				F8A0EC932AC2F23F00E079B2 /* Frameworks */,
+				F8A0EC942AC2F23F00E079B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChenToolBox;
+			packageProductDependencies = (
+				F8A0ECC82AC2F50000E079B2 /* SwiftSoup */,
+			);
+			productName = ChenToolBox;
+			productReference = F8A0EC962AC2F23F00E079B2 /* ChenToolBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8A0ECA52AC2F24000E079B2 /* ChenToolBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A0ECBD2AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBoxTests" */;
+			buildPhases = (
+				F8A0ECA22AC2F24000E079B2 /* Sources */,
+				F8A0ECA32AC2F24000E079B2 /* Frameworks */,
+				F8A0ECA42AC2F24000E079B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A0ECA82AC2F24000E079B2 /* PBXTargetDependency */,
+			);
+			name = ChenToolBoxTests;
+			productName = ChenToolBoxTests;
+			productReference = F8A0ECA62AC2F24000E079B2 /* ChenToolBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8A0ECAF2AC2F24000E079B2 /* ChenToolBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A0ECC02AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBoxUITests" */;
+			buildPhases = (
+				F8A0ECAC2AC2F24000E079B2 /* Sources */,
+				F8A0ECAD2AC2F24000E079B2 /* Frameworks */,
+				F8A0ECAE2AC2F24000E079B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A0ECB22AC2F24000E079B2 /* PBXTargetDependency */,
+			);
+			name = ChenToolBoxUITests;
+			productName = ChenToolBoxUITests;
+			productReference = F8A0ECB02AC2F24000E079B2 /* ChenToolBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A0EC8E2AC2F23F00E079B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F8A0EC952AC2F23F00E079B2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F8A0ECA52AC2F24000E079B2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F8A0EC952AC2F23F00E079B2;
+					};
+					F8A0ECAF2AC2F24000E079B2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F8A0EC952AC2F23F00E079B2;
+					};
+				};
+			};
+			buildConfigurationList = F8A0EC912AC2F23F00E079B2 /* Build configuration list for PBXProject "ChenToolBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8A0EC8D2AC2F23F00E079B2;
+			packageReferences = (
+				F8A0ECC72AC2F50000E079B2 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = F8A0EC972AC2F23F00E079B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A0EC952AC2F23F00E079B2 /* ChenToolBox */,
+				F8A0ECA52AC2F24000E079B2 /* ChenToolBoxTests */,
+				F8A0ECAF2AC2F24000E079B2 /* ChenToolBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A0EC942AC2F23F00E079B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A0ECA12AC2F23F00E079B2 /* Preview Assets.xcassets in Resources */,
+				F8A0EC9E2AC2F23F00E079B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECA42AC2F24000E079B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECAE2AC2F24000E079B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A0EC922AC2F23F00E079B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EFAA3E2AC30CAE00DEB44B /* Access.swift in Sources */,
+				F8158AFC2AC5873200A75E74 /* DoSomeExperiment.swift in Sources */,
+				F847B1742ACB14700095AD82 /* FormatterForString.swift in Sources */,
+				F8A0EC9C2AC2F23F00E079B2 /* ContentView.swift in Sources */,
+				F8A0ECC52AC2F28600E079B2 /* LessonData.swift in Sources */,
+				F8A0ECCB2AC2F8DD00E079B2 /* AddDataToCalendar.swift in Sources */,
+				F8A0EC9A2AC2F23F00E079B2 /* ChenToolBoxApp.swift in Sources */,
+				F8E44DA22AC5BD90008D4E8A /* LessonsView.swift in Sources */,
+				F8EFAA3B2AC2FADE00DEB44B /* StaticData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECA22AC2F24000E079B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A0ECAB2AC2F24000E079B2 /* ChenToolBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A0ECAC2AC2F24000E079B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A0ECB72AC2F24000E079B2 /* ChenToolBoxUITestsLaunchTests.swift in Sources */,
+				F8A0ECB52AC2F24000E079B2 /* ChenToolBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8A0ECA82AC2F24000E079B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8A0EC952AC2F23F00E079B2 /* ChenToolBox */;
+			targetProxy = F8A0ECA72AC2F24000E079B2 /* PBXContainerItemProxy */;
+		};
+		F8A0ECB22AC2F24000E079B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8A0EC952AC2F23F00E079B2 /* ChenToolBox */;
+			targetProxy = F8A0ECB12AC2F24000E079B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8A0ECB82AC2F24000E079B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8A0ECB92AC2F24000E079B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A0ECBB2AC2F24000E079B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChenToolBox/Preview Content\"";
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChenToolBox/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "添加日历权限";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8A0ECBC2AC2F24000E079B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChenToolBox/Preview Content\"";
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChenToolBox/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "添加日历权限";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8A0ECBE2AC2F24000E079B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChenToolBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChenToolBox";
+			};
+			name = Debug;
+		};
+		F8A0ECBF2AC2F24000E079B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChenToolBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChenToolBox";
+			};
+			name = Release;
+		};
+		F8A0ECC12AC2F24000E079B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChenToolBox;
+			};
+			name = Debug;
+		};
+		F8A0ECC22AC2F24000E079B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHC5RGKNPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.ChenToolBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChenToolBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A0EC912AC2F23F00E079B2 /* Build configuration list for PBXProject "ChenToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A0ECB82AC2F24000E079B2 /* Debug */,
+				F8A0ECB92AC2F24000E079B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A0ECBA2AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A0ECBB2AC2F24000E079B2 /* Debug */,
+				F8A0ECBC2AC2F24000E079B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A0ECBD2AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A0ECBE2AC2F24000E079B2 /* Debug */,
+				F8A0ECBF2AC2F24000E079B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A0ECC02AC2F24000E079B2 /* Build configuration list for PBXNativeTarget "ChenToolBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A0ECC12AC2F24000E079B2 /* Debug */,
+				F8A0ECC22AC2F24000E079B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8A0ECC72AC2F50000E079B2 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8A0ECC82AC2F50000E079B2 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8A0ECC72AC2F50000E079B2 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F8A0EC8E2AC2F23F00E079B2 /* Project object */;
+}
